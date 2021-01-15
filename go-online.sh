@@ -2,7 +2,7 @@
 set -euf
 workDir=$HOME/my-status
 
-cd $WORK_DIR
+cd $workDir
 cp online.html index.html
 git add .
 git commit -m "go online"
